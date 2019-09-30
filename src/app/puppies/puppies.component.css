@@ -10,7 +10,7 @@
 .biodiv p{
     display:inline-block;
     font-family: 'Exo 2', sans-serif;
-    font-size:40px;
+    font-size:28px;
 }
 
 .litterbio {
@@ -18,9 +18,9 @@
     margin-left: -2vw;
     height:30px;
     position:absolute;
-    top: 210px;
+    top: 190px;
     font-family: 'Exo 2', sans-serif;
-    font-size:24px;
+    font-size:18px;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@
 .dogsgallery {
     text-align: center;
     position:absolute;
-    margin-top:500px;
+    margin-top:550px;
 }
 
 .dogsgallery img {

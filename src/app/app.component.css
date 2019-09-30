@@ -68,15 +68,16 @@ nav a:hover {
     display: none;
 }
 
+
 .nav-toggle:checked ~ nav {
     transform: scale(1,1);
 }
+
 
 .nav-toggle:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
-
 
 .nav-toggle-label {
     position: absolute;
