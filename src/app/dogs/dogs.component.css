@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body {
+    text-align: center;
+}
+
+.calliewrapper {
+    width:102vw;
+    margin-left: -2vw;
+    height:100px;
+    position:absolute;
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.smokeywrapper {
+    width:102vw;
+    margin-left: -2vw;
+    height: 100px;
+    position:absolute;
+    margin-top:800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-size:30px;
+    width: 45vw;
+}
+
+.smaller_text {
+    font-size:18px
+}
+
+.calliegallery {
+    grid-column: 2;
+    text-align: center;
+    padding: 1vw;
+    max-height: 100%;
+}
+
+.calliegallery img {
+    height:40vh;
+    transition: 0.3s;
+}
+
+.calliegallery img:hover {
+    transform:scale(1.1)
+}
+
+.smokeygallery {
+    grid-column: 2;
+    text-align: center;
+    padding: 1vw;
+    max-height: 100%;
+}
+
+.smokeygallery img {
+    height:40vh;
+    transition: 0.3s;
+}
+
+.smokeygallery img:hover {
+    transform:scale(1.1)
+}
+
+.calliestats {
+    grid-column: 3;
+    padding: 1vw;
+    max-height: 100%;
+}
+
+.smokeystats {
+    grid-column: 3;
+    padding: 1vw;
+    max-height: 100%;
+}
+
+.calliebio {
+    width:102vw;
+    margin-left: -2vw;
+    height:30px;
+    position:absolute;
+    top: 450px;
+    font-family: 'Exo 2', sans-serif;
+    font-size:18px;
+}
+
+.smokeybio {
+    width:102vw;
+    margin-left: -2vw;
+    height:30px;
+    position:absolute;
+    top: 1175px;
+    font-family: 'Exo 2', sans-serif;
+    font-size:18px;
+}
+
+.biotext {
+    margin-left:20vw;
+    margin-right:20vw;
+    border:5px outset rgb(78,130,177);
+    padding:15px;
+}
+
+.dogsgallery {
+    text-align: center;
+    position:absolute;
+    margin-top:1500px;
+}
+
+.dogsgallery img {
+    width:20vw;
+    padding: 1vw;
+    transition: 0.3s;
+}
+
+.dogsgallery img:hover {
+    transform:scale(1.1)
+}
+
+.gallerydiv {
+    position:absolute;
+    width:102vw;
+    margin-left: -2vw;
+    margin-top:1400px;
+    text-align: center;
+}
+
+.gallerydiv p{
+    display:inline-block;
+}
