@@ -6,8 +6,7 @@ body {
 
 .fbbuttonwrapper {
     width:102vw;
-    position:absolute;
-    margin-top:200px;
+    position:relative;
     margin-left: -2vw;
 }
 

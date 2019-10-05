@@ -2,25 +2,15 @@ body {
     text-align: center;
 }
 
-.homewrapper {
-    width:102vw;
-    margin-left: -2vw;
-    height:100px;
-    position:absolute;
-    margin-top:100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
 .homegallery {
-    grid-column: 2;
+    position: relative;
     text-align: center;
     padding: 1vw;
-    max-height: 100%;
 }
 
 .homegallery img {
-    height:40vh;
+    max-width:40vw;
     transition: 0.3s;
 }
 
@@ -29,15 +19,16 @@ body {
 }
 
 .homedescription {
-    grid-column: 3;
+    position: relative;
+    text-align: center;
     padding: 1vw;
-    max-height: 100%;
+    margin-right:20vw;
+    margin-left:20vw;
 }
 
 p {
     font-family: 'Exo 2', sans-serif;
     font-size:30px;
-    width: 45vw;
 }
 
 .smaller_text {

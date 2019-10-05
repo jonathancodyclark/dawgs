@@ -7,7 +7,7 @@
 
 .mainheader {
     background-color: rgb(78,130,177);
-    position: fixed;
+    position: relative;
     margin-top: -20px;
     margin-left: -2vw;
     width: 104vw;
