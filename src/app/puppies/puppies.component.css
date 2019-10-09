@@ -15,14 +15,13 @@
 .litterbio {
     width:102vw;
     margin-left: -2vw;
-    position:relative;
+    position: relative;
     font-family: 'Exo 2', sans-serif;
     font-size:18px;
     text-align: center;
 }
 
 .biotext {
-    max-height:100%;
     margin-left:20vw;
     margin-right:20vw;
     border:5px outset rgb(78,130,177);

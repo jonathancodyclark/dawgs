@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 
-body {
-    text-align: center;
-}
-
 .calliewrapper {
     width:102vw;
     margin-left: -2vw;
@@ -33,7 +29,9 @@ p {
 
 .calliegallery {
     grid-column: 2;
-    text-align: center;
+    display:flex;
+    align-items:center; /*vertical*/
+    justify-content: center; /*horizontal*/
     padding: 1vw;
     max-height: 100%;
 }
@@ -49,7 +47,9 @@ p {
 
 .smokeygallery {
     grid-column: 2;
-    text-align: center;
+    display:flex;
+    align-items:center; /*vertical*/
+    justify-content: center; /*horizontal*/
     padding: 1vw;
     max-height: 100%;
 }
