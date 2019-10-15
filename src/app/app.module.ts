@@ -10,6 +10,7 @@ import { PuppiesComponent } from './puppies/puppies.component';
 import { PageNotFoundComponent } from './not-found/not-found.component';
 
 import {CrystalLightboxModule} from '@crystalui/angular-lightbox';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {CrystalLightboxModule} from '@crystalui/angular-lightbox';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CrystalLightboxModule
+    CrystalLightboxModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
