@@ -1,6 +1,4 @@
-.body {
-    background-color: green;
-}
+
 .mycarousel {
     margin: auto;
     margin-top: 20px;
@@ -10,10 +8,6 @@
 .mycarousel img{
     max-width: 100%;
     margin: auto;
-}
-
-.mycarousel p,h3 {
-    color: black;
 }
 
 .bigtext {
@@ -35,6 +29,7 @@
     width:102vw;
     margin-left: -2vw;
     margin-top: 15px;
+    margin-bottom: 30px;
     position: relative;
     font-family: 'Exo 2', sans-serif;
     font-size:1.75vw;

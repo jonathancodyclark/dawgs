@@ -2,6 +2,7 @@
     position: relative;
     text-align: center;
     padding: 1vw;
+    margin-top: 30px;
 }
 
 .homegallery img {
@@ -23,9 +24,9 @@
 
 p {
     font-family: 'Exo 2', sans-serif;
-    font-size:30px;
+    font-size:3.5vw;
 }
 
 .smaller_text {
-    font-size:18px
+    font-size:1.75vw
 }

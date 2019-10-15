@@ -19,12 +19,12 @@
 
 p {
     font-family: 'Exo 2', sans-serif;
-    font-size:30px;
+    font-size:4vw;
     width: 45vw;
 }
 
 .smaller_text {
-    font-size:18px
+    font-size:2.5vw
 }
 
 .calliegallery {
@@ -80,7 +80,7 @@ p {
     margin-left: -2vw;
     position: relative;
     font-family: 'Exo 2', sans-serif;
-    font-size:18px;
+    font-size:1.5vw;
 }
 
 .smokeybio {
@@ -88,7 +88,7 @@ p {
     margin-left: -2vw;
     position:relative;
     font-family: 'Exo 2', sans-serif;
-    font-size:18px;
+    font-size:1.5vw;
 }
 
 .biotext {
