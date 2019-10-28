@@ -14,8 +14,8 @@ footer {
     justify-content: center; /*horizontal*/
     background-color:black;
     color: white;
-    margin-left: -4vw;
-    width: 110vw;
+    margin-left: -2vw;
+    width: 104vw;
     margin-bottom: -2vh;
     height: 10vh;
 }
@@ -57,10 +57,10 @@ footer p {
 }
 
 .logophoto {
-    max-height: 14vh;
+    max-height: 12vh;
     position:absolute;
     left:35vw;
-    top:2vh;
+    top:4vh;
 }
 
 nav {
