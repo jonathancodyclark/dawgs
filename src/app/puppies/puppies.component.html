@@ -39,8 +39,36 @@
         <p>Sex: male</p>
         <p>Coat: red merle</p>
         <p>Eye Color: blue</p>
-        <p>Price: $1300 or best offer</p>
+        <p class="red">Price: SOLD</p>
         </div>
+</div>
+
+<ngb-carousel class=mycarousel *ngIf="rustyimages" data-interval="false">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="rustyimages[0]" alt="Random first slide">
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="rustyimages[1]" alt="Random second slide">
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="rustyimages[2]" alt="Random second slide">
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<div class="bio">
+          <div class="biotext">
+          <p>Name: Rusty</p>
+          <p>Sex: male</p>
+          <p>Coat: red tri</p>
+          <p>Eye Color: hazel</p>
+          <p class="red">Price: SOLD</p>
+          </div>
 </div>
 
 <ngb-carousel class=mycarousel *ngIf="susanimages" data-interval="false">
@@ -99,34 +127,6 @@
                 </div>
 </div>
 
-<ngb-carousel class=mycarousel *ngIf="rustyimages" data-interval="false">
-        <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img [src]="rustyimages[0]" alt="Random first slide">
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img [src]="rustyimages[1]" alt="Random second slide">
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <div class="picsum-img-wrapper">
-            <img [src]="rustyimages[2]" alt="Random second slide">
-          </div>
-        </ng-template>
-</ngb-carousel>
-
-<div class="bio">
-                <div class="biotext">
-                <p>Name: Rusty</p>
-                <p>Sex: male</p>
-                <p>Coat: red tri</p>
-                <p>Eye Color: hazel</p>
-                <p>Price: $900 or best offer</p>
-                </div>
-</div>
-
 <ngb-carousel class=mycarousel *ngIf="juniorimages" data-interval="false">
         <ng-template ngbSlide>
           <div class="picsum-img-wrapper">
@@ -151,6 +151,6 @@
                 <p>Sex: male</p>
                 <p>Coat: blue merle</p>
                 <p>Eye Color: blue</p>
-                <p>Price: $1200 or best offer</p>
+                <p class="red">Price: SOLD</p>
                 </div>
 </div>
